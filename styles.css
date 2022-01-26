@@ -1,0 +1,322 @@
+body
+{
+  margin: 0;
+}
+h1,h2{
+  font-family: 'Montserrat', sans-serif;
+}
+h3
+{
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+}
+h4
+{
+  margin: 50px auto auto auto;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+}
+hr{
+  height: 3px;
+  width: 10%;
+  background-color: #9548f7;
+  border: none;
+}
+a:link
+{
+  text-decoration: none;
+  color: black;
+}
+a.back-top:visited
+{
+  color: black;
+}
+a.nav-elements:visited{
+  color: black
+}
+.top-container
+{
+
+  height: 750px;
+  display: flex;
+  flex-direction: row;
+}
+.middle-container
+{
+
+  height: 750px;
+  display: flex;
+  flex-direction: row;
+}
+.skills-container
+{
+
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.skill
+{
+  border: 1px solid #edeff3;
+  background-color: #edeff3;
+  height: 300px;
+  width: 250px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.skill-text
+{
+
+  height: 100px;
+  width: 100px;
+
+}
+
+.contact-container
+{
+
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+}
+.contact-left
+{
+
+  height: 700px;
+  width: 758px;
+}
+.contact-right
+{
+
+  height: 700px;
+  width: 758px;
+  background-image: url(images/illus2.png);
+}
+.top-right
+{
+
+  height: 750px;
+  width: 758px;
+  background-color: #EDEFF3;
+}
+.top-left
+{
+
+  height: 750px;
+  width: 758px;
+}
+.bottom-container
+{
+  background-color: #edeff3;
+  border: 1px solid #edeff3;
+  height: 250px;
+  width: 100%;
+}
+.first
+{
+  margin: 200px auto auto 20px;
+}
+.second
+{
+  margin-left: 20px;
+  color: #9548F7;
+}
+.second-head
+{
+  margin: 120px 50px auto 50px;
+}
+.contact-head
+{
+  text-align: center;
+  margin-bottom: 5px;
+
+}
+.skills-head
+{
+  text-align: center;
+  margin-bottom: 5px;
+}
+.first-para
+{
+  font-size: 20px;
+  margin: auto 80px auto 20px;
+}
+.para-second
+{
+  font-size: 24px;
+  margin: 20px 50px auto 50px;
+}
+.footer-text{
+  text-align: center;
+  margin-top: 50px;
+}
+.stats
+{
+  margin: auto auto auto 50px;
+}
+.experience
+{
+  display: inline-block;
+  padding-right: 15px;
+  font-size: 70px;
+  color: #9548F7;
+}
+.exp-content
+{
+  display: inline-block;
+  width: 120px;
+}
+.project
+{
+  display: inline-block;
+  padding-right: 15px;
+  font-size: 70px;
+  color: #9548F7;
+}
+.proj-content
+{
+  display: inline-block;
+  width: 120px;
+}
+.nav-bar
+{
+  margin: 10px auto auto 280px;
+}
+.element
+{
+  margin: auto 15px auto auto;
+}
+.socials
+{
+  margin: 120px auto auto 20px;
+}
+.socials-bottom
+{
+  margin: 30px auto auto 680px;
+  align-content: center;
+
+}
+.image1
+{
+  margin-top: 130px;
+  height: 600px;
+}
+.image2
+{
+  border-radius: 5%;
+  height: 400px;
+  margin: 320px auto auto 200px;
+
+}
+.icons
+{
+  height: 30px;
+  width: 30px;
+  margin: auto 10px auto auto;
+}
+input
+{
+  width: 400px;
+  height: 30px;
+  background-color: #edeff3;
+  border: 2px solid #edeff3;
+}
+textarea
+{
+  background-color: #edeff3;
+  border: 2px solid #edeff3;
+  width: 400px;
+}
+form
+{
+  margin: 100px auto auto 20px;
+}
+input[type=submit]{
+  background-color: #9548f7;
+  color: white;
+  width: 150px;
+}
+.myButton {
+  margin: 30px auto auto 20px;
+	background-color:#9548f7;
+	border-radius:15px;
+	border:1px solid #9548f7;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:13px 17px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #2f6627;
+}
+.myButton:hover {
+	background-color:#570abd;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton2 {
+  margin: auto auto auto 50px;
+	box-shadow: -1px 3px 0 0 #a5ada3;
+	background-color:#f7faf8;
+	border-radius:15px;
+	border:1px solid #0e0f0e;
+	display:inline-block;
+	cursor:pointer;
+	color:#141314;
+	font-family:Arial;
+	font-size:17px;
+	padding:13px 17px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #2f6627;
+}
+.myButton2:hover {
+	background-color:#d0c7db;
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+.myButton3 {
+  margin: auto auto auto 50px;
+	box-shadow: -1px 3px 0 0 #a5ada3;
+	background-color:#9448f7;
+	border-radius:9px;
+	border:1px solid #9448f7;
+	display:inline-block;
+	cursor:pointer;
+	color:#f5edf5;
+	font-family:Arial;
+	font-size:17px;
+	padding:13px 17px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #2f6627;
+}
+.myButton3:hover {
+	background-color:#612aa3;
+}
+.myButton3:active {
+	position:relative;
+	top:1px;
+}
+
+#right{
+  background-color: white;
+}
+#left
+{
+  background-image: url(images/illus1.png);
+}
